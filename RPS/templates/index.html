@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RPS</title>
+  </head>
+  <body>
+    <form class="" action="/player2" method="post">
+      <button type="submit" name="rock">rock</button>
+      <button type="submit" name="paper">paper</button>
+      <button type="submit" name="scissors">scissors</button>
+    </form>
+    <table>
+      <tr>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Ties</th>
+      </tr>
+      <tr>
+        <td>{{ win }}</td>
+        <td>{{ lose }}</td>
+        <td>{{ tie }}</td>
+      </tr>
+    </table>
+    <a href="/">Play Again</a>
+    <br>
+    <br>
+    <a href="/reset">Reset</a>
+  </body>
+</html>
